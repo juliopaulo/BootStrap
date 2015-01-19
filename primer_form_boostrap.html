@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Añadir Oferta</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<h1>Añadir oferta</h1>
+		<form role="form">
+			<div class="form-group">
+				<label for="title">Titulo:</label> 
+				<input type="text" class="form-control" id="title" placeholder="introduzca su titulo">
+			</div>
+			
+			<div class="form-group">
+				<label for="descripcion">Descripción:</label>
+				<textarea class="form-control" rows="5" id="descripcion"></textarea>
+			</div>
+
+			<div class="form-group">
+				<label for="categori">Categoria :</label> 
+				<select class="form-control"
+					id="categori">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+			</div>
+
+			<div class="for-group">
+				<label for="ubicacion">Ubicacion:</label> 
+				<input type="text" class="form-control" id="ubicacion" placeholder="Ubicacion">
+			</div>			
+			<button type="submit" class="btn btn-primary">aceptar</button>
+		</form>
+	</div>
+</body>
+</html>
